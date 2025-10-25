@@ -1,4 +1,31 @@
+# dbt
 target/ 
 dbt_packages/ 
 logs/ 
-*.log 
+*.log
+
+# Python
+venv/
+env/
+*.pyc
+__pycache__/
+.python-version
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (important!)
+profiles.yml
+*.pem
+*.key
+
+# Temporary SQL files
+-- *.sql 
