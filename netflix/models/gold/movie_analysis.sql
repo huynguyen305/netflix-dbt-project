@@ -10,7 +10,7 @@ WITH ratings_summary AS (
         COUNT(*) AS total_ratings
     FROM {{ ref('fct_ratings') }}
     GROUP BY movie_id
-    HAVING COUNT(*) > 100
+    -- HAVING COUNT(*) > 100
 )
 SELECT
     m.movie_title,
