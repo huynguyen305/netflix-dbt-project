@@ -1,0 +1,26 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "snowflake-s3-role",
+        "RoleId": "AROAQVTKZK3S5SBJRLDRT",
+        "Arn": "arn:aws:iam::046394857189:role/snowflake-s3-role",
+        "CreateDate": "2025-10-25T15:53:18+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::310373698391:user/jk6a1000-s"
+                    },
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "VI57870_SFCRole=6_rx6KuV4oJrEoZey2HvgunOJkPsE="
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
